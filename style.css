@@ -1,0 +1,18 @@
+main > div > div > div > div:last-child {
+  display: none;
+}
+
+
+main > div > div > div > div:first-child {
+  max-width: initial;
+}
+
+main > div > div > div > div:first-child > div > div:last-child {
+  max-width: initial;
+  width: 100%;
+}
+
+main > div > div > div > div:first-child > div > div:last-child section article > div > div > div > div:last-child > div:last-child > div:last-child {
+  padding-right: 60px;
+}
+
